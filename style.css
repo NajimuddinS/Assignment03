@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    background-color: white;
+}
+div.container{
+    max-width: 1300px;
+    margin: auto;
+    
+}
+
+nav>div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+nav>div.container>div>a{
+    margin-left: 70px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: black;
+}
+nav>div.container>div>button{
+    margin-left: 70px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #B1E50E;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: black;
+}
+
+article>div.container{
+    display: flex;
+    margin: auto;
+    gap: 10%;
+    align-items: center;
+    margin-top: 70px;
+}
+
+article>div.container>div>p{
+    margin-top: 50px;
+    width: 400px;
+}
+
+article>div.container>div>h3{
+    width: 400px;
+}
+article>div.container>div>img{
+margin-left: 70px;
+}
+
+section h1{
+    font-size: 50px;
+    margin: 60px 0px;
+    color: rgb(59, 59, 59);
+
+}
+section>div.container>div{
+    display: flex;
+}
+
+section>div.container>div>div{
+    width: 300px;
+}
+
+section>div.container>div p{
+    width: 200px;
+}
